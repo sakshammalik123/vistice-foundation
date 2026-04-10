@@ -1,0 +1,12 @@
+{
+  "name": "vistice-production",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --enable-source-maps dist/index.mjs"
+  },
+  "dependencies": {
+    "pino-pretty": "^13.0.0"
+  }
+}
